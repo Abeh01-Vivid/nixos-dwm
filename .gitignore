@@ -1,1 +1,36 @@
 nixos-config/hardware-configuration.nix
+
+# NixOS
+hardware-configuration.nix
+result
+result-*
+*.qcow2
+
+# Secrets/credentials
+*.pem
+*.key
+id_rsa
+id_ed25519
+*.env
+secrets.nix
+.netrc
+
+# SSH (be careful, ignores whole folder)
+.ssh/
+
+# Editor/IDE
+*.swp
+*.swo
+*~
+.direnv/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Shell history/cache
+.bash_history
+.zsh_history
+.local/share/fish/fish_history
+.cache/
