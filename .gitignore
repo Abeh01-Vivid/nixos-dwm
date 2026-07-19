@@ -6,7 +6,7 @@ result
 result-*
 *.qcow2
 
-# Secrets/credentials
+# 
 *.pem
 *.key
 id_rsa
@@ -15,7 +15,7 @@ id_ed25519
 secrets.nix
 .netrc
 
-# SSH (be careful, ignores whole folder)
+# SSH 
 .ssh/
 
 # Editor/IDE
